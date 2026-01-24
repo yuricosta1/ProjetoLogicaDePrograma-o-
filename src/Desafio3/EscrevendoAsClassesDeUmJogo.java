@@ -6,10 +6,10 @@ public class EscrevendoAsClassesDeUmJogo {
         Heroi tipoDeHeroi = new Heroi ();
         System.out.println("Nobre Herói qual o seu nome? ");
         tipoDeHeroi.nome = scan.nextLine();
-        System.out.println("Nobre Herói Qual sua idade?");
+        System.out.println("Nobre Herói Qual sua idade? ");
         tipoDeHeroi.idade = scan.nextInt();
-        System.out.println("Qual a Sua classe?");
-        scan.nextLine(); // limpa o buffer perguntar o professor o pq disso.
+        System.out.println("Qual a Sua classe? ");
+        scan.nextLine(); // limpa o buffer
         tipoDeHeroi.tipo = scan.nextLine();
         System.out.println("O " + tipoDeHeroi.tipo + " atacou usando " + tipoDeHeroi.ataque());
     }
