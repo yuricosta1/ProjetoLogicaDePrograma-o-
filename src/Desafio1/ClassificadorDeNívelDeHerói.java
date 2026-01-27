@@ -7,7 +7,6 @@ public class ClassificadorDeNívelDeHerói {
        String nome = scan.nextLine();
        System.out.printf("Nobre %s, quanto de XP você tem? ", nome);
        int xp = scan.nextInt();
-
         if ( xp < 1000) { System.out.printf("%s O Herói",nome, "está no nível Ferro");}
         else if (xp >= 1001 && xp <= 2000) {System.out.printf("O Herói %s está no nível Bronze",nome);}
         else if (xp >= 2001 && xp <= 5000) { System.out.printf("O Herói %s está no nível Prata",nome);}

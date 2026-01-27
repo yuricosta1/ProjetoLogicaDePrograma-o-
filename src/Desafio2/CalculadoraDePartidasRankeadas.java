@@ -8,9 +8,10 @@ public class CalculadoraDePartidasRankeadas {
         System.out.println("Ola Herói, quantas derrotas você tem? ");
         int derrotas = scan.nextInt();
         int saldoDeRankeadas = vitorias - derrotas;
-        String nivel;//como a variavel já foi declarada na hora de por no if não é necessario por o String na variavel.
+        String nivel;
         if (saldoDeRankeadas < 10){nivel = "Ferro";}
         else if (saldoDeRankeadas >= 11 && saldoDeRankeadas <=20){nivel = "Bronze";}
+        //como estou chamando a variavel que já foi declarada anteriormente não é necessario por o tipo da variavel no if.
         else if (saldoDeRankeadas >= 21 && saldoDeRankeadas <=50){nivel = "Prata";}
         else if (saldoDeRankeadas >= 51 && saldoDeRankeadas <=80){nivel = ("Ouro");}
         else if (saldoDeRankeadas >= 81 && saldoDeRankeadas <=90){nivel = ("Diamante");}
